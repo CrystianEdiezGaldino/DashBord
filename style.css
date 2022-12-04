@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{
+    height: 100%;
+}
+header{
+    background: linear-gradient(45deg, #000000cf, #469dff);
+    padding: 2px 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.info-header{
+    color: white;
+    display: flex;
+}
+.info-header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin:0 8px;
+}
+.info-header svg{
+    margin: 0 10px;
+}
+.icons-header{
+    margin-left: 10px;
+}
+.icons-header svg{
+    cursor: pointer;
+}
+.logo h3:hover{
+opacity: 0.7;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.sidebar{
+    border-right: 1px solid #b3b3b347;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+}
+.sidebar a.sidebar-active{
+    border-radius: 12px;
+    border-left: 4px solid #73b4ff;
+    background-color:rgb(245, 245, 245);
+    color: #777;
+    font-weight: bold;
+}
+.sidebar a.sidebar-active >svg{
+   color: #999;
+}
+.sidebar h3{
+    color: #73b4ff;
+    font-size: 20px;
+    margin: 10px;
+}
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #444;
+}
+.sidebar a:hover{
+    opacity: 0.6;
+    color: rgb(78, 78, 78);
+    background-color: rgba(129, 128, 128, 0.137);  
+    border-right: 4px solid #73b4ff;
+    font-weight: bold;
+    border-radius: 12px;
+}
+.sidebar a > svg{
+    background-color: #444;  
+
+}
+.separator{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(204, 204, 204);
+}
+.content{
+width: 80%;
+padding: 20px;
+background-color: rgb(245, 245, 245);
+}
+.titulo-secao{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.titulo-secao h2{
+    font-size: 19px;
+}
+.titulo-secao p{
+    font-size: 14px;
+}
+.titulo-secao svg{
+   color: #73b4ff;
+}
+.box-info{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.box-info-sigle{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: white;
+    width: 70%;
+    margin-left: 10px;
+    padding: 30px;
+}
+.feed{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 10px;
+}
+.feed-single{
+display: flex;
+justify-content: space-between;
+}
+.feed-text span{
+    color: black;
+}
+.feed-time{
+color: #777;
+font-size: 14px;
+}
+table.table-hover.table-light.table-resposive { border-collapse: collapse; border: 1px solid rgb(10 129 107);
+    background: #f1f8ee; font: .9em/1.2em Georgia, "Times New Roman", Times, serif; color: #033; }
+    table.table-hover.table-light.table-resposive { font-size: 1.3em; font-weight: bold; text-align: left; padding: 1em 4px; }
+.table.table-hover.table-light.table-resposive td,
+table.table-hover.table-light.table-resposive { padding: 3px 3px .75em 3px; line-height: 1.3em; }
+.table.table-hover.table-light.table-resposive th { background: rgb(10 129 107); color: #fff; font-weight: bold; text-align: left; padding-right: .5em; vertical-align: top; }
+table.table-hover.table-light.table-resposive thead th { background: #2C5755; text-align: center; }
+table.table-hover.table-light.table-resposive .odd td { background: #DBE6DD; }
+table.table-hover.table-light.table-resposive .odd th { background: #6E8D88; }
+.table.table-hover.table-light.table-resposive td a,
+table.table-hover.table-light.table-resposive td a:link { color: #325C91; }
+.table.table-hover.table-light.table-resposive td a:visited { color: #466C8E; }
+.table.table-hover.table-light.table-resposive td a:hover,
+.table.table-hover.table-light.table-resposive td a:focus { color: #1E4C94; }
+.table.table-hover.table-light.table-resposive th a,
+.table.table-hover.table-light.table-resposive td a:active { color: #fff; }
+.table.table-hover.table-light.table-resposive tfoot th,
+.table.table-hover.table-light.table-resposive tfoot td { background: #2C5755; color: #fff; }
+.table.table-hover.table-light.table-resposive th + td { padding-left: .5em; }
